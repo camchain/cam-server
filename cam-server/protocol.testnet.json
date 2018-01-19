@@ -1,19 +1,23 @@
 ﻿{
   "ProtocolConfiguration": {
     "Magic": 8229305,
-    "AddressVersion": 10,
+    "AddressVersion": 23,
     "StandbyValidators": [
-      "02599a828ff60b626755944d45121e9a73e72d52b2a682d375d5c2e1eeb46aa9de",
-      "031fb63214782b5a535019a2881be001a600b35f720e4a8bdc0a6463a1c8d9fb25",
-      "035b8da8cbe2db61c33f7180cf73a248cf94c733cae2965582d7aa4f51ca65e704",
-      "030f5cb7a83dcfffc284168805ebf89b98c7b17b4081887dc061cd9cbfe3f76dd1"
+      "03681649df11f826afc16adceab7af57bc937e290da08323502fda7d1914ee18a0",
+      "0275e022cb64dff870b9df068c3d928cd011655665e15432895158e064f44e9be5",
+      "0298ff2c553a553f78042709658ca720eab8a48f902aebaae862f398845c15eb34",
+      "03b515281957e6cda1e22489a95bc5d2090d0893c63bb40a438d84db4affc87bac",
+      "03a905fe6b018eead29561567ba76267e22fd3549404091bacd243e74d99b81644",
+      "025e82b0d87946507bcfac71117b756640a136da6685aea4dc6828c6e6ca0d6883",
+      "02d6d2032b4cd0e5b4c87675afb72234ee19ae6840bfc696e56adace062f7dda51"
     ],
     "SeedList": [
-      "192.168.10.158:18333",
-      "192.168.10.164:18333",
-      "192.168.10.153:18333",
-      "192.168.10.159:18333"
-
+      "node1.camatrix.org:16333",
+      "node2.camatrix.org:16333",
+      "node3.camatrix.org:16333",
+      "node4.camatrix.org:16333",
+      "node5.camatrix.org:16333",
+      "node6.camatrix.org:16333"
     ],
     "SystemFee": {
       "EnrollmentTransaction": 0,
