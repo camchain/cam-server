@@ -1,17 +1,25 @@
 ﻿{
   "ApplicationConfiguration": {
     "Paths": {
-      "Chain": "Chain",
-      "Notifications": "Notifications"
+      "Chain": "Chain_{0}",
+      "Index": "Index_{0}"
     },
     "P2P": {
-      "Port": 18333,
-      "WsPort": 18334
+      "Port": 16333,
+      "WsPort": 16334
     },
     "RPC": {
-      "Port": 18332,
+      "BindAddress": "127.0.0.1",
+      "Port": 16332,
       "SslCert": "",
       "SslCertPassword": ""
-    }
+    },
+    "UnlockWallet": {
+      "Path": "",
+      "Password": "",
+      "StartConsensus": false,
+      "IsActive": false
+    },
+    "PluginURL": "https://github.com/camchain/cam-plugins/releases/download/v{1}/{0}.zip"
   }
 }
