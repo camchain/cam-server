@@ -5,4 +5,4 @@ services:
 
 script:
   - docker build -f ci/Dockerfile -t neo-cli-ci .
-  - docker run neo-cli-ci /opt/ci/run-tests-in-docker.sh
+  - docker run cam-server-ci /opt/ci/run-tests-in-docker.sh
