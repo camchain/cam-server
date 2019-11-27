@@ -14,7 +14,7 @@ The test suite performs the following tasks:
 
 Files:
 
-* `Dockerfile`: the system to build neo-cli and to run the tests
+* `Dockerfile`: the system to build cam-server and to run the tests
 * `build-and-test.sh`: this builds the Docker image, starts it and runs the tests inside. This is useful for testing the CI run on a local dev machine.
 * `run-tests-in-docker.sh`: is run inside the Docker container and executes the tests
 * `test-cam-server.expect`: [expect](https://linux.die.net/man/1/expect) script which verifies cam-server functionality
