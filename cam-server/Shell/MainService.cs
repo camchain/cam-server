@@ -35,7 +35,7 @@ namespace Cam.Shell
         private WalletIndexer indexer;
 
         protected override string Prompt => "cam";
-        public override string ServiceName => "cam-cli";
+        public override string ServiceName => "cam-server";
 
         private WalletIndexer GetIndexer()
         {
@@ -1346,7 +1346,7 @@ namespace Cam.Shell
                 }
             }
 
-            Console.WriteLine($"Install successful, please restart cam-cli.");
+            Console.WriteLine($"Install successful, please restart cam-server.");
             return true;
         }
 
@@ -1372,7 +1372,7 @@ namespace Cam.Shell
             }
 
             File.Delete(Path.Combine("Plugins", $"{pluginName}.dll"));
-            Console.WriteLine($"Uninstall successful, please restart cam-cli.");
+            Console.WriteLine($"Uninstall successful, please restart cam-server.");
             return true;
         }
 
