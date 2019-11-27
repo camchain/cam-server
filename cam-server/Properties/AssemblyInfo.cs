@@ -1,3 +1,3 @@
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("cam-cli.UnitTests")]
+[assembly: InternalsVisibleTo("cam-server.UnitTests")]
