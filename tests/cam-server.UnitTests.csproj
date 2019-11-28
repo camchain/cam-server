@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cam" Version="2.10.2" />
+    <PackageReference Include="Cam" Version="2.10.4" />
     <ProjectReference Include="../cam-server/cam-server.csproj" />
   </ItemGroup>
 
